@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MP1</title>
+        <link rel="stylesheet" href="css/main.scss">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <!-- <h1>Hello World! Welcome to MP1!</h1> -->
+        <!-- <img src="assets/image.jpg"> -->
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <h1>AADYA AGRAWAL</h1>
+                </div>
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#about" id="nav-about">ABOUT</a></li>
+                        <li><a href="#projects" id="nav-projects">PROJECTS</a></li>
+                        <li><a href="#skills" id="nav-skills">SKILLS</a></li>
+                        <li><a href="#contact" id="nav-contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header> 
+
+        <section id="about" class="full-width-section">
+            <video autoplay muted loop id="background-video">
+                <source src="/assets/bckgdvid.mp4" type="video/mp4">
+                <!-- <source src="/assets/bballvid.webm" type="video/webm"> -->
+                No support for video tag.
+            </video>
+            <div class="about-container">
+                <img src="assets/photo.jpg" alt="Picture" class="photo"/>
+                <p>Hello world!</p>
+                <p>I am currently pursuing a master's in Computer Science at the University of Illinois at Urbana Champaign.</p>
+                <p>I completed my bachelor's in Mathematics and Computing from the Indian Institute of Technology Delhi in 2024.</p>
+                <p>I am interested in applying computer vision techniques to sports data. In my free time, I enjoy playing basketball and exploring new food combinations!</p>
+            </div>
+        </section>
+        
+        <section id="projects" class="full-width-section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project" data-modal="modal1">
+                        <h3>Android Malware Detection</h3>
+                        <p>A reliable, robust and explainable malware classifier.</p>
+                    </div>
+                    <div class="project" data-modal="modal2">
+                        <h3>Exploring Human Brain Functions</h3>
+                        <p>Identifies unconventional fMRI responses in visual tasks.</p>
+                    </div>
+                    <div class="project" data-modal="modal3">
+                        <h3>T20 Cricket Simulation</h3>
+                        <p>Ball-by-ball outcome prediction model using match event data.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Android Malware Detection</h3>
+                <p>Analyzed manually-detected indicators to compare robustness & explanations of malware classification methods.</p>
+                <p>Devised a reliable, robust and explainable malware classifier using Contrastive Learning Loss.</p>
+                <p>Established that existing high-level static feature representations of code cannot capture malicious intent reliably.</p>
+            </div>
+        </div>
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>Exploring Human Brain Functions</h3>
+                <p>Improved runtime of Temporal Synchronization Analysis to observe variability in signals using fMRI scans by 36x.</p>
+                <p>Developed technique that implements log-likelihood-based centroid search for K-Means clustering of brain regions.</p>
+            </div>
+        </div>
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h3>T20 Cricket Simulation</h3>
+                <p>Predicted ball-by-ball outcomes using previous match event data with regression and time-series neural networks.</p>
+                <p>Evaluated reliability of our model using betting odds, Pearson's correlation coefficient, and dynamic time warping.</p>
+            </div>
+        </div>
+
+
+        <section id="skills" class="full-width-section">
+            <div class="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item">  
+                        <i class="fas fa-code"></i> 
+                        <h2>Coding Languages</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>R</li>
+                            <li>C/C++</li>
+                            <li>SQL</li>
+                            <li>HTML, Javascript, & CSS</li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fas fa-laptop"></i> 
+                        <h2>Software & Data</h2>
+                        <ul>
+                            <li>GitHub</li>
+                            <li>Visual Studio Code</li>
+                            <li>Jupyter Notebook</li>
+                            <li>CAD</li>
+                        </ul>
+                    </div>
+                    <div class="carousel-item">
+                        <i class="fas fa-book"></i> 
+                        <h2>Libraries</h2>
+                        <ul>
+                            <li>Pandas</li>
+                            <li>Numpy</li>
+                            <li>Keras</li>
+                            <li>Matplotlib</li>
+                            <li>TensorFlow</li>
+                            <li>Sklearn</li>
+                            <li>PyTorch</li>
+                        </ul>
+                    </div>
+                </div>
+                <a class="carousel-prev">&#10094;</a>
+                <a class="carousel-next">&#10095;</a>
+            </div>
+        </section>
+
+        <section id="contact" class="full-width-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <button id="button" type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="social-icons">
+                    <a href="https://facebook.com/aadya.agrawal.15/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/AadyaAgraw3032" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/aadyaagrawal/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/aadya-agrawal" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:aadyaa3@illinois.edu"><i class="fas fa-envelope"></i></a>
+                </div>
+                <p>&copy; AADYA AGRAWAL</p>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>
