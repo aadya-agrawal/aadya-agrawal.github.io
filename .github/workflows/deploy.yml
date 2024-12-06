@@ -36,6 +36,7 @@ jobs:
         run: |
           rm -rf docs
           mv dist docs
+          touch docs/.nojekyll
           
       - name: Deploy
         run: |
