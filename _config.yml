@@ -25,7 +25,7 @@ favicon: "/img/favicon.ico"
 ################
 
 black-favicon: "/img/DALL·E.ico"
-# background-img: "intro-bg.jpg"
+background-img: "intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
