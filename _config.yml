@@ -1,32 +1,37 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
+# TODO: 
+# 1. disable tracking
+
 url: "https://aadya-agrawal.github.io"
 
 # Google tracking id
-google-tracking-id: "UA-XXXXXXXX-X"
+google-tracking-id: false
 
 #############
 # HTML Head #
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Aadya Agrawal"
+title: "Aadya Agrawal"
+description: "My personal website"
+keywords: "agrawal, aadya, personal, website"
 favicon: "/img/favicon.ico"
+
 ################
 # Header layout#
 ################
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "intro-bg.jpg"
+
+black-favicon: "/img/DALL·E.ico"
+# background-img: "intro-bg.jpg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Where’s your will to be weird?"
+quote: "Hello!"
 me-img: "/img/jetpacktocat.png"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
