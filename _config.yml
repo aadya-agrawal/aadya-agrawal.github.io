@@ -25,14 +25,14 @@ favicon: "/img/favicon.ico"
 ################
 
 black-favicon: "/img/DALL·E.ico"
-background-img: "intro-bg.jpg"
+background-img: "bckgd.jpeg"
 
 ##############################
 # Dynamic Text on the Header #
 ##############################
 
 quote: "Hello!"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/pic.jpg"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
