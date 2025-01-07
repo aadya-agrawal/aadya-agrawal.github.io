@@ -1,9 +1,6 @@
 <!-- Intro Start -->
 
 <header class="intro">
-  <div class="wrapper">
-    <span class="intro-text">{{ content }}</span>
-  </div>
   <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
     {% if site.me-img contains "https://" %}
     <img class="img-me" src="{{ site.me-img }}" alt="" />
@@ -15,6 +12,9 @@
     />
     {% endif %}
   </a>
+  <div class="wrapper">
+    <span class="intro-text">{{ content }}</span>
+  </div>
 </header>
 
 <!-- Intro End -->
