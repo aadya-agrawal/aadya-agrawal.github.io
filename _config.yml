@@ -31,7 +31,7 @@ background-img: "bckgd.jpeg"
 # Dynamic Text on the Header #
 ##############################
 
-quote: "Hello!"
+# quote: "Hello!"
 me-img: "/img/pic.jpg"
 
 # To use github profile pic uncomment the following line and replace 'user_name'
